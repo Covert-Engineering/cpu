@@ -7,7 +7,7 @@ http://labs.domipheus.com/blog/designing-a-cpu-in-vhdl-part-3-instruction-set-de
 ## [GTK Wave - view waveform](http://gtkwave.sourceforge.net/)
 
 # Process
-## [analysis] ghdl -a <file names or *>.vhd
-## [elaborate] ghdl -e <top level>
-## [run] ghdl -r <top level> --vcd=<top level>.vcd
-## [open gtkwave] gtkwave <top level>.vcd
+## [analysis] ghdl -a (file names or *).vhd
+## [elaborate] ghdl -e (top level)
+## [run] ghdl -r (top level) --vcd=(top level).vcd
+## [open gtkwave] gtkwave (top level).vcd
