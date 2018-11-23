@@ -1,0 +1,7 @@
+v 4
+file . "tb_reg16_8.vhd" "337e9c18579d7de66eef625fac049f1b9ba04260" "20181123032616.867":
+  entity tb_reg16_8 at 1( 0) + 0 on 23;
+  architecture behav of tb_reg16_8 at 7( 89) + 0 on 24;
+file . "reg16_8.vhd" "5266bf25cfcb92261516398cdbae638e6d48071b" "20181123032616.865":
+  entity reg16_8 at 1( 0) + 0 on 21;
+  architecture rtl of reg16_8 at 19( 489) + 0 on 22;
