@@ -22,13 +22,14 @@ architecture rtl of decode is
 begin  -- architecture rtl
 
   process(clk)
+  begin
     if rising_edge(clk) and en = '1' then
 
-      sel_a     <= data_inst(7 downto 5);
-      sel_b     <= data_inst(4 downto 2);
-      sel_d     <= data_inst(11 downto 9);
-      daata_imm <= data_inst(7 downto 0) & data_inst(7 downto 0);
-      alu_op    <= data_inst(15 downto 12) & data_inst(8);
+      sel_a    <= data_inst(7 downto 5);
+      sel_b    <= data_inst(4 downto 2);
+      sel_d    <= data_inst(11 downto 9);
+      data_imm <= data_inst(7 downto 0) & data_inst(7 downto 0);
+      alu_op   <= data_inst(15 downto 12) & data_inst(8);
 
       case data_inst(15 downto 12) is
         when "0111" =>
