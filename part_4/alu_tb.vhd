@@ -6,7 +6,7 @@
 -- Author     : Covert Engineering  <covert@CovertEngineering>
 -- Company    : 
 -- Created    : 2018-11-23
--- Last update: 2018-11-25
+-- Last update: 2018-12-21
 -- Platform   : 
 -- Standard   : VHDL'93/02
 -------------------------------------------------------------------------------
@@ -21,8 +21,8 @@
 
 library ieee;
 use ieee.std_logic_1164.all;
-library vunit_lib;
-context vunit_lib.vunit_context;
+--library vunit_lib;
+--context vunit_lib.vunit_context;
 
 -------------------------------------------------------------------------------
 
